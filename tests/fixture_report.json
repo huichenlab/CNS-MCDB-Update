@@ -1,0 +1,83 @@
+{
+  "issue": {
+    "journal": "Nature",
+    "volume": "999",
+    "issue": "1",
+    "issue_date": "2026-08-09",
+    "canonical_issue_url": "https://www.nature.com/nature/volumes/999/issues/1",
+    "retrieved_at": "2026-08-09T17:00:00Z"
+  },
+  "screening_notes": [
+    "Fixture report for renderer and layout validation.",
+    "News, reviews and editorials were excluded."
+  ],
+  "papers": [
+    {
+      "title": "A mechanistic study of tissue-scale signaling during early development",
+      "authors": "A. Researcher, B. Scientist et al.",
+      "journal": "Nature",
+      "volume": "999",
+      "issue": "1",
+      "publication_date": "2026-08-09",
+      "article_type": "Article",
+      "doi": "10.0000/example",
+      "canonical_url": "https://doi.org/10.0000/example",
+      "access_note": "Official abstract and figures reviewed; full text unavailable.",
+      "main_discovery": "The study identifies a directional signaling mechanism that couples cell state to tissue mechanics.",
+      "importance_implication": "The mechanism provides a tractable framework for testing how molecular feedback stabilizes embryonic patterning.",
+      "methods": ["Live imaging", "Single-cell RNA sequencing", "Perturbation and rescue"],
+      "key_evidence": ["Orthogonal perturbations produced concordant phenotypes.", "Rescue restored signaling and tissue morphology."],
+      "limitations": ["The source model does not establish conservation in vertebrate embryos.", "Temporal resolution is limited."],
+      "source_status": "abstract/preview-supported",
+      "grant_ideas": [
+        {
+          "working_title": "A mechanochemical checkpoint for gastrulation robustness",
+          "importance": "Gastrulation failures cause major developmental defects, yet the feedback linking mechanics to cell-state transitions remains unresolved.",
+          "knowledge_gap": "The featured paper does not establish whether mechanical feedback is causal, conserved, or lineage-specific in a vertebrate embryo.",
+          "rationale_xenopus_advantage": "External development, targeted blastomere injection, explants and rapid live imaging make early Xenopus a decisive test system.",
+          "central_hypothesis": "Speculative: a tension-responsive signaling node raises the threshold for mesodermal fate transitions and thereby buffers gastrulation against perturbation.",
+          "experimental_design": "Inject lineage-restricted CRISPR reagents and fluorescent reporters at the 4- to 8-cell stage in X. tropicalis; analyze stages 10-13. Compare non-targeting, knockout, rescue, temporal-inhibition and dose groups across at least three clutches with 15-20 embryos per group. Quantify reporter dynamics, cell trajectories, tissue strain, marker expression and single-cell state. Proceed to epistasis if rescue restores both signaling and mechanics by at least 50 percent.",
+          "expected_results_interpretations": "Loss should uncouple tension from fate and increase pattern variance; rescue should restore coupling. A signaling-only rescue would support parallel mechanical effectors. No phenotype would refute the proposed node or indicate compensation and redirect the next aim to redundant paralogs.",
+          "potential_pitfalls": ["Mosaic editing", "Developmental delay", "Paralog compensation", "Reporter sensitivity"],
+          "alternative_strategies": ["Use F0 crispant genotyping plus stable lines.", "Use inducible dominant-negative and pharmacologic perturbations.", "Validate with explant force measurements and a second reporter."],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: the featured paper supports pathway-mechanics coupling in another model. Pilot 1 will quantify reporter-strain correlation in three clutches; pilot 2 will test loss and mRNA rescue with blinded morphology and marker scoring. A grant-ready figure will require a reproducible effect in at least three clutches, standardized effect size of at least 0.8, and rescue of at least 50 percent; otherwise the project will pivot to the best-supported paralog.",
+          "novelty": "high - tests a vertebrate embryonic feedback mechanism",
+          "feasibility": "high - uses routine injection, imaging and explant methods",
+          "risk": "medium - compensation and mosaicism are manageable",
+          "grant_fit": "Specific Aim 1, followed by molecular epistasis in Aim 2.",
+          "reviewer_premise": "Xenopus uniquely permits causal, spatially targeted tests of mechanochemical buffering in an intact vertebrate embryo.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper",
+              "doi_or_pmid": "10.0000/example",
+              "url": "https://doi.org/10.0000/example",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_paper_synthesis": {
+    "recurring_mechanisms": ["Feedback between signaling and mechanics"],
+    "methodological_trends": ["Live imaging integrated with single-cell measurements"],
+    "ranked_opportunities": [
+      {
+        "rank": 1,
+        "title": "Mechanochemical buffering of gastrulation",
+        "source_papers": ["A mechanistic study of tissue-scale signaling during early development"],
+        "significance": "high",
+        "novelty": "high",
+        "mechanistic_clarity": "high",
+        "preliminary_support": "medium",
+        "xenopus_advantage": "high",
+        "feasibility": "high",
+        "follow_on_aims": "epistasis and cross-species validation"
+      }
+    ],
+    "why_xenopus_now": "Fast external development, targeted perturbation and quantitative live imaging can connect molecular causality to tissue-level outcomes.",
+    "coherent_multi_aim_proposal": "Aim 1 defines the mechanochemical checkpoint; Aim 2 identifies upstream sensors; Aim 3 tests conservation and robustness.",
+    "independent_pilots": ["Reporter-strain correlation", "CRISPR and rescue feasibility"]
+  },
+  "source_method_note": "Fixture data only; not a literature claim. The production workflow requires publisher URLs, DOI metadata and explicit access notes."
+}
