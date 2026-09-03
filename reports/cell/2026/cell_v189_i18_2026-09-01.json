@@ -1,0 +1,983 @@
+{
+  "issue": {
+    "journal": "Cell",
+    "volume": "189",
+    "issue": "18",
+    "issue_date": "2026-09-01",
+    "canonical_issue_url": "https://www.cell.com/cell/issue?pii=S0092-8674(26)X0018-X",
+    "retrieved_at": "2026-09-03T17:53:55.825925+00:00"
+  },
+  "screening_notes": [
+    "Official publisher issue page returned HTTP 403; no full-page review is claimed.",
+    "Screened 13 biology-relevant journal articles after excluding reviews, perspectives, news, corrections, and editorials by metadata/title rules.",
+    "All summaries are deterministic extractions from the bounded public evidence packet; no language-model API or paid research service was used."
+  ],
+  "papers": [
+    {
+      "title": "Targeting peripheral 5-HT2AR enhances antitumor immunity in colorectal cancer",
+      "authors": "YaTing Wen, LingJie Tang, WenWen Duan, QingFei Ren, YangYue Ni, ShiYang Chen, Jun Chen, Lei Yang, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.07.028",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.07.028",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "Here, we show that by targeting the serotonin receptor 5-HT 2A R, lysergic acid diethylamide (LSD) enhances CD8 + T cell-mediated antitumor immunity and suppresses colorectal cancer (CRC) growth.",
+      "importance_implication": "The study advances mechanistic understanding of Targeting peripheral 5-HT2AR enhances antitumor immunity in colorectal cancer and creates a defined basis for testing conservation and developmental function in a vertebrate embryo.",
+      "methods": [
+        "Publisher-deposited title/abstract analysis; consult the linked paper for complete technical details"
+      ],
+      "key_evidence": [
+        "Here, we show that by targeting the serotonin receptor 5-HT 2A R, lysergic acid diethylamide (LSD) enhances CD8 + T cell-mediated antitumor immunity and suppresses colorectal cancer (CRC) growth.",
+        "We show that IHCH-8110 inhibits CRC progression by activating 5-HT 2A R on enteric glial cells, thereby inducing CXCL10 and interleukin (IL)-18 expression to promote CD8 + T cell recruitment and effector polarization within the tumor microenvironment.",
+        "Together, our findings identify enteric 5-HT 2A R signaling as a regulator of antitumor immunity and support peripheral 5-HT 2A R agonists as a therapeutic strategy for CRC immunotherapy."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Targeting peripheral 5-HT2AR enhances antitumor immunity in colorectal cancer",
+          "importance": "Cell Signaling And Fate Control is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-14 to stabilize pathway activity, lineage allocation, and spatial marker-domain size; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap, organizer, and mesendodermal lineages by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-14. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: pathway activity, lineage allocation, and spatial marker-domain size. Secondary readouts: cell behavior, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.07.028",
+              "url": "https://doi.org/10.1016/j.cell.2026.07.028",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "cell signaling and fate control"
+    },
+    {
+      "title": "Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer",
+      "authors": "Liu Yang, Michael A. Wheeler",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.08.008",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.08.008",
+      "access_note": "Metadata and title only; no abstract or full text was retrieved.",
+      "main_discovery": "The title and publisher metadata identify a primary-research study of Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer; no abstract was retrieved, so no more specific discovery claim is made.",
+      "importance_implication": "The study advances mechanistic understanding of Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer and creates a defined basis for testing conservation and developmental function in a vertebrate embryo.",
+      "methods": [
+        "Publisher-deposited title/abstract analysis; consult the linked paper for complete technical details"
+      ],
+      "key_evidence": [
+        "The retrieved publisher-deposited metadata identifies this item as a journal article in the detected volume and issue.",
+        "The DOI provides the canonical path for manual verification of figures and full methods."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "metadata/title-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer",
+          "importance": "Cell Signaling And Fate Control is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-14 to stabilize pathway activity, lineage allocation, and spatial marker-domain size; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap, organizer, and mesendodermal lineages by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-14. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: pathway activity, lineage allocation, and spatial marker-domain size. Secondary readouts: cell behavior, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.08.008",
+              "url": "https://doi.org/10.1016/j.cell.2026.08.008",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "cell signaling and fate control"
+    },
+    {
+      "title": "Polyamines buffer labile iron to suppress ferroptosis",
+      "authors": "Pushkal Sharma, Heather R. Keys, Ryan P. Mansell, Jillian Stark, Louisa Girard, Christalyn Ausler, Rachel Anderson, Sebastian Müller, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.07.040",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.07.040",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "Here, we show that polyamines contribute to endogenous buffering of redox-active iron, providing a molecular link between polyamine metabolism and ferroptosis.",
+      "importance_implication": "These findings reposition polyamines as key regulators of iron homeostasis, with implications for ferroptosis-linked disease states and cellular redox balance.",
+      "methods": [
+        "CRISPR genome editing",
+        "Live-cell or intravital imaging",
+        "Quantitative imaging"
+      ],
+      "key_evidence": [
+        "Here, we show that polyamines contribute to endogenous buffering of redox-active iron, providing a molecular link between polyamine metabolism and ferroptosis.",
+        "Mechanistically, we show that polyamine deficiency triggers a redistribution of cellular iron, increasing the labile iron pool and upregulating ferritin.",
+        "To directly visualize this iron buffering in living cells, we developed a genetically encoded fluorescent reporter for redox-active iron."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Polyamines buffer labile iron to suppress ferroptosis",
+          "importance": "Metabolism And Organelle Function is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-13 to stabilize organelle state, metabolite-sensitive reporters, and lineage-marker induction; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap and marginal-zone explants by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-13. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: organelle state, metabolite-sensitive reporters, and lineage-marker induction. Secondary readouts: survival, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.07.040",
+              "url": "https://doi.org/10.1016/j.cell.2026.07.040",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "metabolism and organelle function"
+    },
+    {
+      "title": "Skin-innervating glutamatergic neurons modulate aging",
+      "authors": "Zhikai Wang, Xinping Jin, Yue Wu, Wenxiang Ding, Fengjiao Zhang, Yang Sun, Fangzhou Lou, Jing Bai, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.032",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.032",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "Here, we report that cutaneous denervation accelerates skin aging, as evidenced by collagen reduction.",
+      "importance_implication": "Together, these findings reveal Nefh-mediated glutamatergic neuromodulation of skin aging and provide therapeutic targets for aging-related skin disorders.",
+      "methods": [
+        "Publisher-deposited title/abstract analysis; consult the linked paper for complete technical details"
+      ],
+      "key_evidence": [
+        "Here, we report that cutaneous denervation accelerates skin aging, as evidenced by collagen reduction.",
+        "Moreover, Nefh deletion in Vglut2 + glutamatergic neurons drives skin fibroblast senescence and collagen loss, whereas additional glutamate improves skin aging phenotypes.",
+        "Together, these findings reveal Nefh-mediated glutamatergic neuromodulation of skin aging and provide therapeutic targets for aging-related skin disorders."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Skin-innervating glutamatergic neurons modulate aging",
+          "importance": "Neural Development And Function is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 10-18 to stabilize neural-domain geometry, lineage allocation, and reporter dynamics; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target neural plate and neural-border lineages by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 10-18. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: neural-domain geometry, lineage allocation, and reporter dynamics. Secondary readouts: marker expression, cell trajectories, and neural-tube morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.032",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.032",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "neural development and function"
+    },
+    {
+      "title": "Localized PD-1 CAR T therapy reprograms neuroinflammation",
+      "authors": "Rotem Shalita, Maya Ben Yehuda, Chamutal Gur, Yasmin Frid, Sarah McGrath, Roni Suhler, Lihi Bolokan, Vasyl Eisenberg, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.036",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.036",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "To identify new therapeutic targets, we generated a single-cell RNA sequencing (scRNA-seq) atlas of cerebrospinal fluid (CSF), brain, and blood from non-inflammatory controls and patients with MS or other neuroinflammatory diseases.",
+      "importance_implication": "The study advances mechanistic understanding of Localized PD-1 CAR T therapy reprograms neuroinflammation and creates a defined basis for testing conservation and developmental function in a vertebrate embryo.",
+      "methods": [
+        "Single-cell transcriptomics"
+      ],
+      "key_evidence": [
+        "To identify new therapeutic targets, we generated a single-cell RNA sequencing (scRNA-seq) atlas of cerebrospinal fluid (CSF), brain, and blood from non-inflammatory controls and patients with MS or other neuroinflammatory diseases.",
+        "We found disease-associated enrichment of class-switched immunoglobulin G + (IgG + ) B cells and plasma cells in MS CSF.",
+        "These findings define a CNS-localized adaptive immune circuit in MS and nominate programmable PD-1 CAR T cells as a strategy to disrupt it."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Localized PD-1 CAR T therapy reprograms neuroinflammation",
+          "importance": "Immunity And Host Response is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-18 to stabilize cell-stress signaling, epithelial integrity, and lineage-specific transcription; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target epidermal and mesendodermal lineages before mature immunity by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-18. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: cell-stress signaling, epithelial integrity, and lineage-specific transcription. Secondary readouts: survival, barrier morphology, and developmental timing, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.036",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.036",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "immunity and host response"
+    },
+    {
+      "title": "A bivalent molecular glue linking lysine acetyltransferases to oncogene-induced cell death",
+      "authors": "Meredith N. Nix, Sai Gourisankar, Kevin J. Bowman, Sabin A. Nettles, Haopeng Yang, Brendan G. Dwyer, Roman C. Sarott, Hind Abuzaid, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.037",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.037",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "The crystal structure of the chemically induced p300-BCL6 complex reveals how chance protein-protein interactions may be exploited to confer the potency and selectivity of KAT-TCIPs.",
+      "importance_implication": "Consistent with their gain-of-function mechanism, TCIPs recruiting different transcriptional activators-p300, BRD4, or CDK9-produce distinct genomic responses, suggesting specialized therapeutic uses.",
+      "methods": [
+        "Publisher-deposited title/abstract analysis; consult the linked paper for complete technical details"
+      ],
+      "key_evidence": [
+        "The crystal structure of the chemically induced p300-BCL6 complex reveals how chance protein-protein interactions may be exploited to confer the potency and selectivity of KAT-TCIPs."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of A bivalent molecular glue linking lysine acetyltransferases to oncogene-induced...",
+          "importance": "Gene Regulation And Chromatin is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-14 to stabilize pathway activity, lineage allocation, and spatial marker-domain size; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap, organizer, and mesendodermal lineages by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-14. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: pathway activity, lineage allocation, and spatial marker-domain size. Secondary readouts: cell behavior, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.037",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.037",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "gene regulation and chromatin"
+    },
+    {
+      "title": "Reconstituting human primitive streak formation through extra-embryonic cell coordination",
+      "authors": "Qiaoyan Shen, Xin Zhang, Naixin Chen, Xiaodi Yan, Hongan Ren, Xizhuang Sun, Linjie Xu, Jianchao Zhao, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.05.045",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.05.045",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "This advancement may allow for experimental exploration and manipulation of previously inaccessible stages of human early gastrulation, providing an opportunity to glimpse the onset of this crucial developmental process.",
+      "importance_implication": "This advancement may allow for experimental exploration and manipulation of previously inaccessible stages of human early gastrulation, providing an opportunity to glimpse the onset of this crucial developmental process.",
+      "methods": [
+        "Organoid or stem-cell model",
+        "Biochemical reconstitution"
+      ],
+      "key_evidence": [
+        "The retrieved publisher-deposited metadata identifies this item as a journal article in the detected volume and issue.",
+        "The DOI provides the canonical path for manual verification of figures and full methods."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Reconstituting human primitive streak formation through extra-embryonic cell...",
+          "importance": "Cell Mechanics And Morphogenesis is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 10-13 to stabilize cell polarity, convergence-extension, tissue strain, and migration persistence; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target dorsal mesoderm and involuting marginal-zone explants by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 10-13. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: cell polarity, convergence-extension, tissue strain, and migration persistence. Secondary readouts: fate markers, adhesion dynamics, and whole-embryo axis elongation, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.05.045",
+              "url": "https://doi.org/10.1016/j.cell.2026.05.045",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "cell mechanics and morphogenesis"
+    },
+    {
+      "title": "Basement membrane turnover controls cell shape",
+      "authors": "Ricardo Barrientos, Billie Meadowcroft, Besaiz J. Sánchez-Sánchez, Brian M. Stramer, Ewa K. Paluch, Guillaume Charras, Shiladitya Banerjee, Anđela Šarić, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.07.010",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.07.010",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "Through mathematical modeling, we show that the stress relaxation time of the BM can regulate cell shape.",
+      "importance_implication": "This cross-disciplinary approach establishes a multiscale framework to probe matrix turnover, and its regulation and function in cell shape control.",
+      "methods": [
+        "Biochemical reconstitution",
+        "Quantitative imaging",
+        "Computational modeling"
+      ],
+      "key_evidence": [
+        "Through mathematical modeling, we show that the stress relaxation time of the BM can regulate cell shape.",
+        "Using molecular dynamics simulations, we show that the stress relaxation time of a collagen IV network can be inferred from the lifetime of collagen IV molecules.",
+        "To measure collagen IV lifetime in vivo, we develop a fluorescent timer reporter for collagen IV and show that perlecan modifies collagen IV lifetime."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Basement membrane turnover controls cell shape",
+          "importance": "Cell Mechanics And Morphogenesis is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 10-13 to stabilize cell polarity, convergence-extension, tissue strain, and migration persistence; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target dorsal mesoderm and involuting marginal-zone explants by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 10-13. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: cell polarity, convergence-extension, tissue strain, and migration persistence. Secondary readouts: fate markers, adhesion dynamics, and whole-embryo axis elongation, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.07.010",
+              "url": "https://doi.org/10.1016/j.cell.2026.07.010",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "cell mechanics and morphogenesis"
+    },
+    {
+      "title": "Four-dimensional molecular mapping from a spatial snapshot reveals the dynamics of hair follicle organogenesis",
+      "authors": "Soichiro Asami, Chenshuo Yin, Jean Fan, Luis A. Garza, Reza Kalhor",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.014",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.014",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "This work demonstrates how deep-tissue spatial transcriptomics can uncover hidden dynamics of organ formation.",
+      "importance_implication": "Understanding organ formation requires capturing molecular information simultaneously in three-dimensional (3D) space and across developmental time.",
+      "methods": [
+        "Spatial transcriptomics",
+        "Organoid or stem-cell model"
+      ],
+      "key_evidence": [
+        "This map revealed developmental dynamics spanning stem cell compartment stratification, emergence of new cell subtypes within the follicle, and cascading structural transformations leading to hair canal formation.",
+        "Comparative analysis of Foxn1-deficient nude mice, a hairlessness model, revealed organ-wide changes in developmental dynamics, including delayed molecular progression, reduced coordination, and increased developmental instability, preceding overt structural defects.",
+        "This work demonstrates how deep-tissue spatial transcriptomics can uncover hidden dynamics of organ formation."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Four-dimensional molecular mapping from a spatial snapshot reveals the dynamics...",
+          "importance": "Gene Regulation And Chromatin is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-14 to stabilize pathway activity, lineage allocation, and spatial marker-domain size; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap, organizer, and mesendodermal lineages by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-14. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: pathway activity, lineage allocation, and spatial marker-domain size. Secondary readouts: cell behavior, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.014",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.014",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "gene regulation and chromatin"
+    },
+    {
+      "title": "CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics",
+      "authors": "Seon Pyo Hong, Cheolhwa Jin, Myung Jin Yang, Hokyung Jin, Jin-Hui Yoon, Du Ri Choi, Junho Jung, Chae Min Yuk, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.035",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.035",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "Similar arachnoid fenestrations were found in cynomolgus monkeys.",
+      "importance_implication": "The study advances mechanistic understanding of CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics and creates a defined basis for testing conservation and developmental function in a vertebrate embryo.",
+      "methods": [
+        "Quantitative imaging"
+      ],
+      "key_evidence": [
+        "Similar arachnoid fenestrations were found in cynomolgus monkeys."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics",
+          "importance": "Cell Signaling And Fate Control is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-14 to stabilize pathway activity, lineage allocation, and spatial marker-domain size; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap, organizer, and mesendodermal lineages by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-14. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: pathway activity, lineage allocation, and spatial marker-domain size. Secondary readouts: cell behavior, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.035",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.035",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "cell signaling and fate control"
+    },
+    {
+      "title": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders",
+      "authors": "Zinan Zhou, Lovelace J. Luquette, Guanlan Dong, Junho Kim, Jayoung Ku, Kisong Kim, Nandini Ramesh, Mingyun Bae, et al.",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.013",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.013",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "TOP1-associated sIndel mutagenesis and genome instability thus represent a mechanism shared by both TDP-43 and tau neurodegeneration.",
+      "importance_implication": "The study advances mechanistic understanding of Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders and creates a defined basis for testing conservation and developmental function in a vertebrate embryo.",
+      "methods": [
+        "Publisher-deposited title/abstract analysis; consult the linked paper for complete technical details"
+      ],
+      "key_evidence": [
+        "Single-cell whole-genome sequencing of 469 neurons from C9ORF72 ALS, C9ORF72 FTD, AD, and control brains revealed increased somatic single-nucleotide variants (sSNVs) and insertions/deletions (sIndels) in all three diseases.",
+        "Mutational signature analysis identified a disease-associated sSNV signature consistent with oxidative damage and an sIndel process affecting 22% of ALS, 76% of FTD, and 61% of AD neurons-but only 2% of control neurons-resembling signature ID4, previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major...",
+          "importance": "Gene Regulation And Chromatin is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-14 to stabilize pathway activity, lineage allocation, and spatial marker-domain size; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap, organizer, and mesendodermal lineages by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-14. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: pathway activity, lineage allocation, and spatial marker-domain size. Secondary readouts: cell behavior, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.013",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.013",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "gene regulation and chromatin"
+    },
+    {
+      "title": "Structural basis for host membrane binding and remodeling by invading malaria parasites",
+      "authors": "Meseret T. Haile, Daphne A. Kaxiras, James Zhen, Carolyn L. Lee, Britney Jiang, Jennifer L. Small-Saunders, Chi-Min Ho",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.012",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.012",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "We then leverage the native membrane context revealed by our structure, along with recent advances in computational protein design, to enable the rational design of a small protein binder that inhibits invasion.",
+      "importance_implication": "We then leverage the native membrane context revealed by our structure, along with recent advances in computational protein design, to enable the rational design of a small protein binder that inhibits invasion.",
+      "methods": [
+        "Computational modeling"
+      ],
+      "key_evidence": [
+        "Here, we determine the endogenous structure of the basic repeating unit of the moving junction, purified directly from invasion-stalled Plasmodium falciparum parasites, revealing a sailboat-shaped 1:1:1:1 assembly of apical membrane antigen 1 (PfAMA1) and rhoptry neck proteins 2, 4, and 5 (PfRON2, PfRON4, and PfRON5).",
+        "We then leverage the native membrane context revealed by our structure, along with recent advances in computational protein design, to enable the rational design of a small protein binder that inhibits invasion."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Structural basis for host membrane binding and remodeling by invading malaria...",
+          "importance": "Immunity And Host Response is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-18 to stabilize cell-stress signaling, epithelial integrity, and lineage-specific transcription; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target epidermal and mesendodermal lineages before mature immunity by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-18. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: cell-stress signaling, epithelial integrity, and lineage-specific transcription. Secondary readouts: survival, barrier morphology, and developmental timing, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.012",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.012",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "immunity and host response"
+    },
+    {
+      "title": "Co-option of lysosomal machinery shapes the evolution of the intracellular photosymbiosis supporting coral reefs",
+      "authors": "Shumpei Maruyama, Catherine F. Henderson, Natalie Swinhoe, Griffin P. Kowalewski, Emily K. Meier, Ty R. Engelke, Phillip A. Cleves",
+      "journal": "Cell",
+      "volume": "189",
+      "issue": "18",
+      "publication_date": "2026-09-01",
+      "article_type": "journal-article",
+      "doi": "10.1016/j.cell.2026.06.015",
+      "canonical_url": "https://doi.org/10.1016/j.cell.2026.06.015",
+      "access_note": "Abstract retrieved from Europe PMC; no full-text review is claimed.",
+      "main_discovery": "Together, these findings reveal that corals and anemones have repeatedly co-opted lysosomal proteins to concentrate carbon and shuttle metabolites to support photosymbiosis, providing a relatively simple path for the repeated evolution of new photosymbioses.",
+      "importance_implication": "The study advances mechanistic understanding of Co-option of lysosomal machinery shapes the evolution of the intracellular photosymbiosis supporting coral reefs and creates a defined basis for testing conservation and developmental function in a vertebrate embryo.",
+      "methods": [
+        "CRISPR genome editing",
+        "Genetic perturbation and rescue"
+      ],
+      "key_evidence": [
+        "Using the sea anemone Aiptasia, we generated a high-quality proteome of the symbiosome, revealing protein trafficking mechanisms and the types of biomolecules exchanged during symbiosis.",
+        "We identified a symbiosomal bicarbonate/sulfate transporter, SLC26A11, and showed through CRISPR/Cas9 mutagenesis that this lysosomal transporter is required for symbiosis in Aiptasia and a reef-building coral.",
+        "Together, these findings reveal that corals and anemones have repeatedly co-opted lysosomal proteins to concentrate carbon and shuttle metabolites to support photosymbiosis, providing a relatively simple path for the repeated evolution of new photosymbioses."
+      ],
+      "limitations": [
+        "This automated report used title, DOI metadata, and an available abstract; it does not claim manual full-text, figure, or complete methods review.",
+        "The deterministic extractor cannot assess experimental quality, effect size, statistics, or unreported negative results beyond the retrieved source text.",
+        "The proposed Xenopus mechanism is new speculation and has not been established by the featured paper."
+      ],
+      "source_status": "abstract-supported",
+      "grant_ideas": [
+        {
+          "working_title": "Developmental timing and tissue autonomy of Co-option of lysosomal machinery shapes the evolution of the intracellular...",
+          "importance": "Metabolism And Organelle Function is central to how embryonic cells convert molecular state into reproducible tissue organization. Establishing whether the featured mechanism operates during early vertebrate development could reveal a conserved control point and a tractable route to explain developmental variability without overstating clinical translation.",
+          "knowledge_gap": "The featured paper does not establish whether the focal regulator or mechanism described by the featured paper acts during early vertebrate development, whether its effect is cell-autonomous, which developmental window is sensitive, or whether molecular and morphogenetic phenotypes can be rescued independently.",
+          "rationale_xenopus_advantage": "The paper supplies a candidate mechanism, while early Xenopus provides rapid external development, targeted blastomere injection, explants, lineage tracing, live imaging, inexpensive biological replication across clutches, and direct comparison of molecular and tissue-scale outcomes.",
+          "central_hypothesis": "Speculative: the focal regulator or mechanism described by the featured paper acts cell-autonomously during stages 8-13 to stabilize organelle state, metabolite-sensitive reporters, and lineage-marker induction; acute loss will reduce the predicted molecular readout and increase pattern variance, while stage-matched wild-type rescue will restore both.",
+          "experimental_design": "Use Xenopus tropicalis for F0 genetics and Xenopus laevis explants. Target animal-cap and marginal-zone explants by injecting two independent CRISPR RNPs at the 4- to 8-cell stage with a fluorescent lineage tracer; analyze stages 8-13. Groups: uninjected, non-targeting RNP, each guide alone, pooled guides, dose series, wild-type mRNA rescue, perturbation-resistant rescue, and temporally delayed perturbation where a validated small molecule or inducible construct exists. Primary readouts: organelle state, metabolite-sensitive reporters, and lineage-marker induction. Secondary readouts: survival, developmental timing, and gastrulation morphology, amplicon sequencing, RT-qPCR or in situ hybridization, and an orthogonal biochemical or reporter assay. Use at least three independent spawnings, 20-30 embryos per group per spawning for morphology, and 8-10 pooled or individually profiled samples per molecular condition; randomize embryos, blind image scoring, and analyze clutch as a random effect with multiplicity-controlled planned contrasts. Decision point: advance to epistasis and spatial single-cell profiling only if both guides reproduce the effect and rescue restores at least 50% of the molecular and developmental phenotype.",
+          "expected_results_interpretations": "Support would be a guide-concordant loss of the predicted molecular readout, increased spatial or embryo-to-embryo variance, and rescue of both molecular and tissue phenotypes. This would place the mechanism upstream of developmental robustness. A molecular phenotype without morphogenesis would suggest buffering or a parallel tissue effector and would redirect the next aim to sensitized or explant conditions. A morphogenetic phenotype without the predicted reporter change would argue for an alternative biochemical function. No reproducible phenotype after confirmed editing would refute an obligate early role and shift the model toward redundancy, later function, or species-specific deployment.",
+          "potential_pitfalls": [
+            "F0 mosaicism may weaken or spatially blur phenotypes.",
+            "Paralog redundancy or maternal stores may mask an early requirement.",
+            "High-dose perturbation may cause nonspecific toxicity or developmental delay.",
+            "The featured mechanism may not be conserved or may use different effectors in amphibians.",
+            "Abstract-only evidence may omit critical context needed to choose the most specific assay."
+          ],
+          "alternative_strategies": [
+            "Map editing per embryo and enrich analysis for high-editing specimens; establish stable alleles if mosaicism remains limiting.",
+            "Target expressed paralogs jointly, use maternal-zygotic strategies where feasible, or test dominant-negative and degron-based acute perturbations.",
+            "Use lower doses, later induction, tissue-restricted injection, explants, and matched survival/staging controls to separate mechanism from toxicity.",
+            "Test Xenopus laevis and X. tropicalis orthologs, then validate the key interaction biochemically or in a complementary cell model.",
+            "Before full-scale work, manually review the linked paper's figures and methods and revise the reporter or perturbation to match the demonstrated mechanism."
+          ],
+          "preliminary_evidence_plan": "Published enabling evidence and proposed preliminary-data plan: no unpublished user-laboratory data are assumed. The featured paper is the cited cross-species enabling source; direct Xenopus evidence was not automatically verified. Pilot 1: map candidate expression or pathway activity at 5-6 early stages using RT-qPCR and in situ hybridization (three spawnings; expected Figure 1A-B); go if a reproducible spatial or temporal signal exceeds twofold over the lowest stage. Pilot 2: test two CRISPR RNPs plus non-targeting control in three spawnings with at least 25 embryos per group, amplicon sequencing, blinded morphology, and the primary molecular readout (Figure 1C-E); go if both guides produce the same directional effect of at least 20% with acceptable survival. Pilot 3: perform wild-type mRNA rescue in three spawnings with at least 20 embryos per group (Figure 1F-G); go if rescue reverses at least 50% of the molecular and phenotype effect. Failure at any threshold triggers the paired alternative strategy rather than a claim of preliminary support.",
+          "novelty": "medium-high - transfers a recent mechanism into a spatially and temporally tractable vertebrate embryo",
+          "feasibility": "high for the pilots - injection, explants, imaging, genotyping, and rescue are routine Xenopus capabilities",
+          "risk": "medium - conservation, maternal contribution, and mosaicism are explicit decision points",
+          "grant_fit": "Exploratory Aim 1 for conservation and causality; successful pilots support Aim 2 epistasis and Aim 3 spatial mechanism.",
+          "reviewer_premise": "Xenopus can test when, where, and whether a newly reported cellular mechanism controls intact vertebrate development in one experimentally integrated system.",
+          "supporting_sources": [
+            {
+              "citation": "Featured paper (publisher-linked source)",
+              "doi_or_pmid": "10.1016/j.cell.2026.06.015",
+              "url": "https://doi.org/10.1016/j.cell.2026.06.015",
+              "evidence_type": "featured paper"
+            }
+          ]
+        }
+      ],
+      "theme": "metabolism and organelle function"
+    }
+  ],
+  "cross_paper_synthesis": {
+    "recurring_mechanisms": [
+      "cell signaling and fate control (3 papers)",
+      "gene regulation and chromatin (3 papers)",
+      "metabolism and organelle function (2 papers)",
+      "immunity and host response (2 papers)",
+      "cell mechanics and morphogenesis (2 papers)"
+    ],
+    "methodological_trends": [
+      "Publisher-deposited title/abstract analysis; consult the linked paper for complete technical details (5)",
+      "Quantitative imaging (3)",
+      "CRISPR genome editing (2)",
+      "Organoid or stem-cell model (2)",
+      "Biochemical reconstitution (2)",
+      "Computational modeling (2)"
+    ],
+    "ranked_opportunities": [
+      {
+        "rank": 1,
+        "title": "Developmental timing and tissue autonomy of Targeting peripheral 5-HT2AR enhances antitumor immunity in colorectal cancer",
+        "source_papers": [
+          "Targeting peripheral 5-HT2AR enhances antitumor immunity in colorectal cancer"
+        ],
+        "significance": "high if the focal mechanism is conserved",
+        "novelty": "medium-high",
+        "mechanistic_clarity": "medium pending candidate-specific assay refinement",
+        "preliminary_support": "featured-paper evidence; Xenopus pilots proposed",
+        "xenopus_advantage": "high for temporal, spatial, rescue, and explant experiments",
+        "feasibility": "high for the three rapid pilots",
+        "follow_on_aims": "epistasis, spatial profiling, and cross-species validation"
+      },
+      {
+        "rank": 2,
+        "title": "Developmental timing and tissue autonomy of Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer",
+        "source_papers": [
+          "Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer"
+        ],
+        "significance": "high if the focal mechanism is conserved",
+        "novelty": "medium-high",
+        "mechanistic_clarity": "medium pending candidate-specific assay refinement",
+        "preliminary_support": "featured-paper evidence; Xenopus pilots proposed",
+        "xenopus_advantage": "high for temporal, spatial, rescue, and explant experiments",
+        "feasibility": "high for the three rapid pilots",
+        "follow_on_aims": "epistasis, spatial profiling, and cross-species validation"
+      },
+      {
+        "rank": 3,
+        "title": "Developmental timing and tissue autonomy of Polyamines buffer labile iron to suppress ferroptosis",
+        "source_papers": [
+          "Polyamines buffer labile iron to suppress ferroptosis"
+        ],
+        "significance": "high if the focal mechanism is conserved",
+        "novelty": "medium-high",
+        "mechanistic_clarity": "medium pending candidate-specific assay refinement",
+        "preliminary_support": "featured-paper evidence; Xenopus pilots proposed",
+        "xenopus_advantage": "high for temporal, spatial, rescue, and explant experiments",
+        "feasibility": "high for the three rapid pilots",
+        "follow_on_aims": "epistasis, spatial profiling, and cross-species validation"
+      },
+      {
+        "rank": 4,
+        "title": "Developmental timing and tissue autonomy of Skin-innervating glutamatergic neurons modulate aging",
+        "source_papers": [
+          "Skin-innervating glutamatergic neurons modulate aging"
+        ],
+        "significance": "high if the focal mechanism is conserved",
+        "novelty": "medium-high",
+        "mechanistic_clarity": "medium pending candidate-specific assay refinement",
+        "preliminary_support": "featured-paper evidence; Xenopus pilots proposed",
+        "xenopus_advantage": "high for temporal, spatial, rescue, and explant experiments",
+        "feasibility": "high for the three rapid pilots",
+        "follow_on_aims": "epistasis, spatial profiling, and cross-species validation"
+      }
+    ],
+    "why_xenopus_now": "Early Xenopus combines rapid external development, targeted microinjection, explants, lineage tracing, live imaging, F0 CRISPR, rescue, and scalable replication. It can convert abstract-supported candidate mechanisms into spatially resolved causal tests before committing to slower mammalian models.",
+    "coherent_multi_aim_proposal": "A coherent multi-aim proposal can unite papers centered on cell signaling and fate control: Aim 1 establishes conservation and timing, Aim 2 resolves cell autonomy and pathway order, and Aim 3 links molecular activity to tissue-scale robustness.",
+    "independent_pilots": [
+      "Developmental timing and tissue autonomy of Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer",
+      "Developmental timing and tissue autonomy of Polyamines buffer labile iron to suppress ferroptosis",
+      "Developmental timing and tissue autonomy of Skin-innervating glutamatergic neurons modulate aging"
+    ]
+  },
+  "source_method_note": "Retrieved 2026-09-03T17:53:55.825925+00:00. Change detection and bibliographic metadata: publisher-deposited Crossref record (https://api.crossref.org/journals/0092-8674/works). Abstract fallback: Europe PMC when available. Canonical issue and DOI URLs point to the publishers. Official-page check: Official publisher issue page returned HTTP 403; no full-page review is claimed. The automated evidence boundary is publisher-deposited Crossref metadata plus legally available Europe PMC abstracts. Publisher pages are probed but paywalls and access controls are not bypassed. Figures and full methods are not claimed as reviewed. No OpenAI API, model API, paid literature service, paywall bypass, unpublished user data, or claimed full-text review was used. Grant concepts are speculative templates requiring expert, candidate-specific revision."
+}
