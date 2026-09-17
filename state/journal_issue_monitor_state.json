@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "last_successful_run": "2026-09-17T00:36:47.688247+00:00",
+  "last_successful_run": "2026-09-17T18:19:18.165413+00:00",
   "issues": {
     "Science": {
       "release_key": "393:6816",
@@ -35,17 +35,17 @@
       "generation": "deterministic; no OpenAI or model API"
     },
     "Cell": {
-      "release_key": "189:18",
+      "release_key": "189:19",
       "volume": "189",
-      "issue": "18",
+      "issue": "19",
       "issue_date": "2026-09-01",
-      "canonical_issue_url": "https://www.cell.com/cell/issue?pii=S0092-8674(26)X0018-X",
-      "processed_at": "2026-09-03T17:53:55.825925+00:00",
-      "pdf": "pdf/cell/2026/cell_v189_i18_2026-09-01.pdf",
-      "report": "reports/cell/2026/cell_v189_i18_2026-09-01.json",
+      "canonical_issue_url": "https://www.cell.com/cell/issue?pii=S0092-8674(26)X0019-X",
+      "processed_at": "2026-09-17T18:19:18.165413+00:00",
+      "pdf": "pdf/cell/2026/cell_v189_i19_2026-09-01.pdf",
+      "report": "reports/cell/2026/cell_v189_i19_2026-09-01.json",
       "qa": {
-        "pages": 42,
-        "bytes": 152235
+        "pages": 57,
+        "bytes": 199200
       },
       "delivery": "committed directly to private GitHub repository",
       "generation": "deterministic; no OpenAI or model API"
