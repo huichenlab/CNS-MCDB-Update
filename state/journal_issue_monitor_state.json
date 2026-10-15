@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "last_successful_run": "2026-10-08T19:59:36.547645+00:00",
+  "last_successful_run": "2026-10-15T04:49:03.120206+00:00",
   "issues": {
     "Science": {
       "release_key": "394:6820",
@@ -19,17 +19,17 @@
       "generation": "deterministic; no OpenAI or model API"
     },
     "Nature": {
-      "release_key": "658:8135",
+      "release_key": "658:8136",
       "volume": "658",
-      "issue": "8135",
-      "issue_date": "2026-10-08",
-      "canonical_issue_url": "https://www.nature.com/nature/volumes/658/issues/8135",
-      "processed_at": "2026-10-08T06:13:42.779272+00:00",
-      "pdf": "pdf/nature/2026/nature_v658_i8135_2026-10-08.pdf",
-      "report": "reports/nature/2026/nature_v658_i8135_2026-10-08.json",
+      "issue": "8136",
+      "issue_date": "2026-10-15",
+      "canonical_issue_url": "https://www.nature.com/nature/volumes/658/issues/8136",
+      "processed_at": "2026-10-15T04:49:03.120206+00:00",
+      "pdf": "pdf/nature/2026/nature_v658_i8136_2026-10-15.pdf",
+      "report": "reports/nature/2026/nature_v658_i8136_2026-10-15.json",
       "qa": {
-        "pages": 45,
-        "bytes": 162999
+        "pages": 42,
+        "bytes": 151963
       },
       "delivery": "committed directly to private GitHub repository",
       "generation": "deterministic; no OpenAI or model API"
