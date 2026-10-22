@@ -1,19 +1,19 @@
 {
   "version": 4,
-  "last_successful_run": "2026-10-22T04:58:12.599583+00:00",
+  "last_successful_run": "2026-10-22T21:42:28.183748+00:00",
   "issues": {
     "Science": {
-      "release_key": "394:6821",
+      "release_key": "394:6822",
       "volume": "394",
-      "issue": "6821",
-      "issue_date": "2026-10-15",
-      "canonical_issue_url": "https://www.science.org/toc/science/394/6821",
-      "processed_at": "2026-10-15T21:29:23.895590+00:00",
-      "pdf": "pdf/science/2026/science_v394_i6821_2026-10-15.pdf",
-      "report": "reports/science/2026/science_v394_i6821_2026-10-15.json",
+      "issue": "6822",
+      "issue_date": "2026-10-22",
+      "canonical_issue_url": "https://www.science.org/toc/science/394/6822",
+      "processed_at": "2026-10-22T21:42:28.183748+00:00",
+      "pdf": "pdf/science/2026/science_v394_i6822_2026-10-22.pdf",
+      "report": "reports/science/2026/science_v394_i6822_2026-10-22.json",
       "qa": {
         "pages": 30,
-        "bytes": 113844
+        "bytes": 112994
       },
       "delivery": "committed directly to private GitHub repository",
       "generation": "deterministic; no OpenAI or model API"
