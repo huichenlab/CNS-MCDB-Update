@@ -1,19 +1,19 @@
 {
   "version": 4,
-  "last_successful_run": "2026-10-29T05:55:48.764582+00:00",
+  "last_successful_run": "2026-10-29T19:42:14.087336+00:00",
   "issues": {
     "Science": {
-      "release_key": "394:6822",
+      "release_key": "394:6823",
       "volume": "394",
-      "issue": "6822",
-      "issue_date": "2026-10-22",
-      "canonical_issue_url": "https://www.science.org/toc/science/394/6822",
-      "processed_at": "2026-10-22T21:42:28.183748+00:00",
-      "pdf": "pdf/science/2026/science_v394_i6822_2026-10-22.pdf",
-      "report": "reports/science/2026/science_v394_i6822_2026-10-22.json",
+      "issue": "6823",
+      "issue_date": "2026-10-29",
+      "canonical_issue_url": "https://www.science.org/toc/science/394/6823",
+      "processed_at": "2026-10-29T19:42:14.087336+00:00",
+      "pdf": "pdf/science/2026/science_v394_i6823_2026-10-29.pdf",
+      "report": "reports/science/2026/science_v394_i6823_2026-10-29.json",
       "qa": {
-        "pages": 30,
-        "bytes": 112994
+        "pages": 39,
+        "bytes": 140784
       },
       "delivery": "committed directly to private GitHub repository",
       "generation": "deterministic; no OpenAI or model API"
@@ -35,17 +35,17 @@
       "generation": "deterministic; no OpenAI or model API"
     },
     "Cell": {
-      "release_key": "189:21",
+      "release_key": "189:22",
       "volume": "189",
-      "issue": "21",
+      "issue": "22",
       "issue_date": "2026-10-01",
-      "canonical_issue_url": "https://www.cell.com/cell/issue?pii=S0092-8674(26)X0021-X",
-      "processed_at": "2026-10-15T17:07:08.834355+00:00",
-      "pdf": "pdf/cell/2026/cell_v189_i21_2026-10-01.pdf",
-      "report": "reports/cell/2026/cell_v189_i21_2026-10-01.json",
+      "canonical_issue_url": "https://www.cell.com/cell/issue?pii=S0092-8674(26)X0022-X",
+      "processed_at": "2026-10-29T19:42:14.087336+00:00",
+      "pdf": "pdf/cell/2026/cell_v189_i22_2026-10-01.pdf",
+      "report": "reports/cell/2026/cell_v189_i22_2026-10-01.json",
       "qa": {
-        "pages": 45,
-        "bytes": 161684
+        "pages": 57,
+        "bytes": 199014
       },
       "delivery": "committed directly to private GitHub repository",
       "generation": "deterministic; no OpenAI or model API"
